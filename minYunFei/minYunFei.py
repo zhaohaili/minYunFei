@@ -1,5 +1,8 @@
 # encoding:utf-8 
 import math
+import sys
+
+
 class YunFei:
     def __init__(self):
         pass
@@ -58,3 +61,14 @@ class YunFei:
         # print((u'车型1数量为：').encode('gbk')+str(list1[listweight.index(min(listweight))]))
         # print((u'车型2数量为：').encode('gbk')+str(list2[listweight.index(min(listweight))]))
         # print((u'车型3数量为：').encode('gbk')+str(list3[listweight.index(min(listweight))]))
+
+
+
+if __name__ == '__main__':
+    YunFei.minWeight(price1=sys.argv[1],
+                      price2=sys.argv[2],
+                      price3=sys.argv[3],
+                      weight1=sys.argv[4],
+                      weight2=sys.argv[5],
+                      weight3=sys.argv[6],
+                      weighttotal=sys.argv[7])
