@@ -16,16 +16,6 @@ class YunFei:
                    weight3='',
                    weighttotal=''):
 
-        #单价
-        price1 = price1
-        price2 = price2
-        price3=  price3
-        #载重
-        weight1=weight1
-        weight2=weight2
-        weight3=weight3
-        #交接单总重量
-        weighttotal=weighttotal
         chexing1=list(range(int(math.ceil(float(weighttotal.strip())/float(weight1.strip()))+1)))
         chexing2=list(range(int(math.ceil(float(weighttotal.strip())/float(weight2.strip()))+1)))
         chexing3=list(range(int(math.ceil(float(weighttotal.strip())/float(weight3.strip()))+1)))
